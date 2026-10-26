@@ -1,0 +1,50 @@
+body{
+background-color: rgb(83, 168, 150);
+}
+
+h1{
+   font-size: 40px;
+    color: aliceblue ;
+text-align:center
+
+}
+h2{
+    color: aliceblue;
+font-size: 40px;
+
+}
+p{
+font-size:  40px;
+color: aliceblue;
+
+}
+#imagens{
+    
+    border-radius: 120px;
+    height: 500px;
+    max-width: 500px;
+
+}
+#textoimagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+#galeria{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+grid-gap: 20px;
+}
+#blocos{
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+ grid-gap: 20px;
+}
+#textoimagem2{
+display:grid;
+grid-template-columns: 1fr 1fr;
+align-items: right;
+
+}
